@@ -48,7 +48,7 @@ val pomUrlValue = "https://www.caitun.com"
 
 // License metadata
 val pomLicenseNameValue = "Proprietary License"
-val pomLicenseUrlValue = "https://www.caitun.com/license"
+val pomLicenseUrlValue = "https://raw.githubusercontent.com/caitunai/aar-maven/refs/heads/main/LICENSE"
 
 // Developer metadata
 val pomDeveloperIdValue = "caitun"

@@ -46,7 +46,7 @@ publishing {
                 licenses {
                     license {
                         name.set("Proprietary License")
-                        url.set("https://www.caitun.com/license")
+                        url.set("https://raw.githubusercontent.com/caitunai/aar-maven/refs/heads/main/LICENSE")
                         distribution.set("repo")
                     }
                 }
@@ -60,9 +60,9 @@ publishing {
                 }
 
                 scm {
-                    url.set("https://www.caitun.com/scm/jl_bt_ota")
-                    connection.set("scm:git:https://www.caitun.com/scm/jl_bt_ota.git")
-                    developerConnection.set("scm:git:https://www.caitun.com/scm/jl_bt_ota.git")
+                    url.set("https://github.com/caitunai/aar-maven")
+                    connection.set("scm:git:https://github.com/caitunai/aar-maven.git")
+                    developerConnection.set("scm:git:https://github.com/caitunai/aar-maven.git")
                 }
 
                 // 如果这个 AAR 依赖其他库，需要手动写进 POM
